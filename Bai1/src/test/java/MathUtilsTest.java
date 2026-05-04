@@ -5,6 +5,6 @@ class MathUtilsTest {
     @Test
     void testAdd() {
         MathUtils utils = new MathUtils();
-        assertEquals(5, utils.add(2, 3), "2 + 3 phải bằng 5");
+        assertEquals(10, utils.add(2, 3), "2 + 3 phải bằng 5");
     }
 }
